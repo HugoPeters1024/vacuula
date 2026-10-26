@@ -1,0 +1,12 @@
+{
+  "domain": "vacuula",
+  "name": "Vacuula",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/vacuula/vacuula/tree/main/custom_components/vacuula",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/vacuula/vacuula/issues",
+  "requirements": [],
+  "version": "0.2.0"
+}

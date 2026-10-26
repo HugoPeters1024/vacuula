@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Vacuula",
+        "description": "Enter the URL of the Vacuula web app, for example http://192.168.1.50:80. Use the direct server address, not the Home Assistant ingress URL.",
+        "data": {
+          "url": "Server URL"
+        },
+        "data_description": {
+          "url": "The HTTP or HTTPS address of your Vacuula server."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to Vacuula. Check the server address and port.",
+      "invalid_url": "Enter an HTTP or HTTPS URL without credentials, query parameters or a fragment."
+    },
+    "abort": {
+      "already_configured": "This Vacuula server is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery": {
+        "name": "Battery"
+      }
+    },
+    "binary_sensor": {
+      "charging": {
+        "name": "Charging"
+      },
+      "docked": {
+        "name": "Docked"
+      },
+      "problem": {
+        "name": "Problem"
+      }
+    }
+  }
+}

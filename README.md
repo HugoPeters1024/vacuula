@@ -42,7 +42,7 @@ _custom server for the undead robot vacuum cleaners_
 | Feature          | Status               |   | Feature                | Status |
 |------------------|----------------------|---|------------------------|--------|
 | Setup/Status     | ✅                   |   | Notifications          | 🚧     |
-| Maps             | ✅                   |   | Home Assistant Entity  | 🚧     |
+| Maps             | ✅                   |   | Home Assistant Entity  | [Battery and status sensors](./custom_components/vacuula/README.md) · more 🚧     |
 | Historical runs  | ✅                   |   | Drag to clean "here"   | 🚧     |
 | Schedule         | ✅                   |   | Custom sounds          | 🚧     |
 | Settings         | ✅                   |   | QoL improvements       | 🚧     |
